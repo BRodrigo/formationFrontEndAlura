@@ -1,6 +1,9 @@
 header {
-    background: #bbbbbb;
-    padding: 20px 0px;
+    background-color: #000000; 
+    background-image: url(../images/home/cabecalho.jfif);
+    background-position: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 10px 0px;
 }
 
 .caixa {
@@ -22,14 +25,15 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #FFD700;
+    transition: 1.5s all;
     text-decoration: underline;
 }
 
@@ -71,12 +75,31 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #C78C19;
+    border-color: #FF0000;
     font-size: 40px;
 }
 
-.produtos li:active {
-    border-color: green;
+.linkbutton {
+    text-decoration: none;
+    color: white;
+}
+
+.agendar {
+    margin: 10px;
+    padding: 10px 15px;
+    background: orange;
+    color: white;
+    font: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.agendar:hover {
+    background: darkgreen;
+    transform: scale(1.0);
 }
 
 footer {
