@@ -1,48 +1,78 @@
-#banner {
-    width: 100%;
+header {
+    background-color: #000000; 
+    background-image: url(../images/home/cabecalho.jfif);
+    background-position: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 10px 0px;
 }
 
-.principal {
-    background: #cccccc;
-    padding: 30px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFD700;
+    transition: 1.5s all;
+    text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+/* css da página inicial */
+.banner {
+	width:100%;
 }
 
 .titulo-principal {
-    padding-left: 20px;
-}
-p {
-    text-align: center;
-}
-
-em strong {
-    color:#FF0000;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
 }
 
-#missao {
-    font-size: 20px;
+.principal p {
+	margin: 0 0 1em;
 }
 
-.itens {
-    font-style: italic;
+.principal strong {
+	font-weight: bold;
 }
 
-.beneficios {
-    background: #ffffff;
-    padding: 20px;
+.principal em {
+	font-style: italic;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
-.titulo-centralizado {
-    text-align: center;
+.imagembeneficios {
+	width: 60%;
 }
-
-.imagemBeneficios {
-    width: 50%
-}
-
