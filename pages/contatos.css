@@ -1,6 +1,10 @@
 header {
-    background: #bbbbbb;
-    padding: 20px 0px;
+    background-color: #000000; 
+    background-image: url(../images/home/cabecalho.jfif);
+    background-position: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+    position: relative;
 }
 
 .caixa {
@@ -22,14 +26,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #cfcfcf;
     text-decoration: underline;
 }
 
