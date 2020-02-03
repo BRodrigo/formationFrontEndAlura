@@ -1,10 +1,13 @@
-header {
-    background-color: #000000; 
-    background-image: url(../images/home/cabecalho.jfif);
-    background-position: 100% 100%; 
-    background-repeat: no-repeat;
-    padding: 10px 0px;
-    position: relative;
+main {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 250px;
+}
+
+header { 
+    position: fixed;
+    background-image: linear-gradient(-90deg, red, yellow);
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .caixa {
@@ -22,6 +25,11 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center
 }
 
 nav a {

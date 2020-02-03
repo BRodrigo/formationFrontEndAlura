@@ -1,6 +1,14 @@
-header { 
-    background-image: linear-gradient(-90deg, red, yellow);
+main {
+    padding-top: 250px;
 }
+
+header { 
+    position: fixed;
+    background-image: linear-gradient(-90deg, red, yellow);
+    box-sizing: border-box;
+    width: 100%;
+}
+
 
 .caixa {
     position: relative;
@@ -19,8 +27,9 @@ nav li {
     margin: 0 0 0 15px;
 }
 
-div nav li:nth-child(4) {
-    padding-top: 20px;
+nav ul {
+    display: flex;
+    align-items: center
 }
 
 nav a {
